@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />   
+  <title>Your Name | Portfolio</title>
+</head>
+<body>
+
+  <!-- ======================
+       HERO / PROFILE SECTION
+       Update your name, title and description here
+  ======================= -->
+  <header>
+    <h1>Alexvillhen <span>— Engineer</span></h1>
+    <p>
+      Mechatronics Engineer · Software-Oriented · Data, Automation & Systems Thinking
+    </p>
+  </header>
+
+  <!-- ======================
+       ABOUT / PERSONAL INFO
+  ======================= -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I'm a mechatronics engineer with a strong preference for software-driven solutions.
+        I enjoy designing systems where code, data, and hardware meet, with a focus on
+        practicality, performance, and real-world impact.
+      </p>
+      <br />
+      <p>
+        I'm especially interested in automation, data analysis, and engineering tools that
+        improve decision-making. I tend to learn by building, iterating, and refining —
+        favoring clean logic over unnecessary complexity.
+      </p>
+      <br />
+      <p>
+        <strong>Age:</strong> 23<br />
+        <strong>Background:</strong> Mechatronics Engineering<br />
+        <strong>Focus:</strong> Software, Data, Automation<br />
+        <strong>Interests:</strong> Engineering systems, performance optimization, aerospace & motorsport data
+      </p>
+    </div>
+  </section>
+
+  <!-- ======================
+       SKILLS SECTION
+       Add or remove skills easily
+  ======================= -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+
+      <div class="skill" data-desc="Used for scripting, automation, and data analysis. Comfortable moving between quick scripts and more structured analytical workflows.">
+        <strong>Python</strong>
+        <p class="skill-desc">Used for scripting, automation, and data analysis.</p>
+      </div>
+
+      <div class="skill" data-desc="Experience with DOM manipulation, logic-heavy UI behavior, and small tooling projects rather than heavy frameworks.">
+        <strong>JavaScript</strong>
+        <p class="skill-desc">Logic-driven frontend behavior and tooling.</p>
+      </div>
+
+      <div class="skill" data-desc="Semantic HTML and maintainable CSS with a focus on clarity, structure, and long-term readability.">
+        <strong>HTML & CSS</strong>
+        <p class="skill-desc">Semantic, clean, maintainable UI.</p>
+      </div>
+
+      <div class="skill" data-desc="Relational databases, data modeling, and writing queries to support analysis and engineering decisions.">
+        <strong>SQL & Databases</strong>
+        <p class="skill-desc">Data modeling and query logic.</p>
+      </div>
+
+       <div class="skill" data-desc="Strong focus on object-oriented programming, clean architecture, and backend fundamentals. Used mainly for structured problem-solving and scalable logic.">
+        <strong>Java</strong>
+        <p class="skill-desc">Strong focus on object-oriented programming, clean architecture, and backend fundamentals.</p>
+      </div>
+
+      <div class="skill" data-desc="Version control for personal and academic projects, emphasizing clean history and experimentation.">
+        <strong>Git & GitHub</strong>
+        <p class="skill-desc">Version control and collaboration.</p>
+      </div>
+
+      <div class="skill" data-desc="Interpreting metrics, trends, and patterns to support performance-oriented decision making.">
+        <strong>Data Analysis</strong>
+        <p class="skill-desc">Metrics-driven thinking.</p>
+      </div>
+
+      <div class="skill" data-desc="Designing control logic and automation workflows across software and embedded systems.">
+        <strong>Automation & Control</strong>
+        <p class="skill-desc">System logic and automation.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================
+       EXPERIENCE / EDUCATION
+       Works as CV timeline
+  ======================= -->
+  <section id="experience">
+    <h2>Experience & Education</h2>
+    <div class="card">
+      <div class="timeline-item">
+        <strong>Mechatronics Engineering</strong><br />
+        Instituo Tecnológico de Hermosillo — Focus on systems, automation, and applied software
+      </div>
+      <div class="timeline-item">
+        <strong>Academic & Personal Engineering Projects</strong><br />
+        Mechanical design, control logic, software tooling, and data-driven analysis
+      </div>
+      <div class="timeline-item">
+        <strong>Self-Directed Learning</strong><br />
+        Python scripting, data analysis, embedded systems, and automation
+      </div>
+    </div>
+  </section>
+
+  <!-- ======================
+       PROJECTS SECTION
+       Optional but highly recommended
+  ======================= -->
+  <section id="projects">
+    <h2>Selected Projects</h2>
+
+    <div class="card">
+      <p><strong>Engineering Project: Mechanical Table & Transmission System</strong></p>
+      <p>
+        Design and dimensioning of a mechanical structure including aluminum profiles
+        and belt transmission selection. Project involved calculations, constraints
+        analysis, and technical documentation under limited time and budget.
+      </p>
+    </div>
+
+    <div class="card">
+      <p><strong>Personal Portfolio & Engineering Tracker</strong></p>
+      <p>
+        Development of a personal productivity and habit-tracking system focused on
+        consistency, self-improvement, and data awareness. Emphasis on simplicity and
+        long-term maintainability.
+      </p>
+    </div>
+
+    <!-- <div class="card">
+      <p><strong>Data & Analysis Learning Path</strong></p>
+      <p>
+        Ongoing project aimed at building the skills required for data analysis in
+        motorsport contexts (e.g., Formula 1). Focus on metrics, performance trends,
+        and analytical thinking rather than tooling alone.
+      </p>
+    </div> -->
+
+    <div class="card">
+      <p><strong>Coffee Machine Automation (PIC16F18855)</strong></p>
+      <p>
+        Design and implementation of an embedded system to automate a coffee machine
+        using a PIC16F18855 microcontroller. The project involved I/O control, timing
+        logic, hardware interfacing, and reliability considerations for real-world use.
+        Focused on translating a manual process into a deterministic embedded workflow.
+      </p>
+    </div>
+
+    <div class="card">
+      <p><strong>Electronics & Audio Exploration</strong></p>
+      <p>
+        Conceptual and practical exploration of guitar amplifiers and audio systems,
+        combining electronics fundamentals with signal behavior and personal interest
+        in music.
+      </p>
+    </div>
+  </section>
+
+  <!-- ======================
+       FOOTER
+  ======================= -->
+  <footer>
+    <p>© <span id="year"></span> Alejandro Villaescusa · Built with HTML, CSS & JS</p>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+</html>
